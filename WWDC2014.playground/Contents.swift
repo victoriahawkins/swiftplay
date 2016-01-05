@@ -2,4 +2,9 @@
 
 import UIKit
 
-var str = "Hello, playground"
+var string = "hello" + " " + "world"
+
+for i in 0...10 { // three dots in range operator now
+    string += "\(i)"
+}
+string
